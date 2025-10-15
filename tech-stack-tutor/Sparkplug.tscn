@@ -1,0 +1,25 @@
+[gd_scene load_steps=2 format=3 uid="uid://rie1kvbpst20"]
+
+[ext_resource type="Script" uid="uid://bynd0n7i14qkd" path="res://control.gd" id="1_6y8w1"]
+
+[node name="Node2D" type="Node2D"]
+script = ExtResource("1_6y8w1")
+
+[node name="LineEdit" type="LineEdit" parent="."]
+offset_left = 113.0
+offset_top = 75.0
+offset_right = 295.0
+offset_bottom = 156.0
+
+[node name="Label" type="Label" parent="."]
+offset_left = 122.0
+offset_top = 172.0
+offset_right = 291.0
+offset_bottom = 248.0
+
+[node name="Label2" type="Label" parent="."]
+offset_left = 492.0
+offset_top = 76.0
+offset_right = 1003.0
+offset_bottom = 282.0
+text = "Enter something, and press Enter!"
